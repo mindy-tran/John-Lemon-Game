@@ -7,6 +7,9 @@ In the repo readme, describe the use of the dot
 product, linear interpolation, and particle effect and how to trigger these in game. Also include 
 the names of your team members and the contributions from each team member.
 
+We use the particle effect on the ghosts as they move.
+
+
 Mindy Tran: Getting Started and Player movement
 
 Elizabeth Bowden: Environment, Camera, Audio
