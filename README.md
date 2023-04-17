@@ -8,7 +8,8 @@ product, linear interpolation, and particle effect and how to trigger these in g
 the names of your team members and the contributions from each team member.
 
 We use the particle effect on the ghosts as they move.
-
+We use lerping on the rotation of the Gargoyles.
+We use dot product to play a heart beat sound when the character gets close to a ghost.
 
 Mindy Tran: Getting Started and Player movement
 
