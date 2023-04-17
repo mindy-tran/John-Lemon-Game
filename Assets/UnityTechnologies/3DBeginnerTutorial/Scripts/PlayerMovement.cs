@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     Animator m_Animator;
     Rigidbody m_Rigidbody; //move the Rigidbody instead of using any other technique
+    AudioSource m_AudioSource;
 
     Vector3 m_Movement; // non-public member variables start with the m_ prefix
     // they belong to a class rather than a specific method
@@ -21,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     {
         m_Animator = GetComponent<Animator> ();
         m_Rigidbody = GetComponent<Rigidbody> ();
+        m_AudioSource = GetComponent<AudioSource> ();
 
     }
 
@@ -40,6 +42,18 @@ public class PlayerMovement : MonoBehaviour
         bool hasVerticalInput = !Mathf.Approximately (vertical, 0f);
         bool isWalking = hasHorizontalInput || hasVerticalInput;
         m_Animator.SetBool ("IsWalking", isWalking);
+
+        if(isWalking)
+        {
+            if(!m_AudioSource.isPlaying)
+            {
+                m_AudioSource.Play();
+            }
+        }
+        else
+        {
+            m_AudioSource.Stop ();
+        }
 
         Vector3 desiredForward = Vector3.RotateTowards (transform.forward, m_Movement, turnSpeed * Time.deltaTime, 0f);
         // instead of making the change per frame, you deal with a change per second
