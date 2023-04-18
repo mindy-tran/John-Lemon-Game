@@ -3,9 +3,14 @@ CS 410 Game Programming: Group project to build the "John Lemon Haunted Jaunt Ga
 
 Game based on Unity's John Lemon's Haunted Jaunt: 3D Beginner https://learn.unity.com/project/john-lemon-s-haunted-jaunt-3d-beginner
 
-We use the particle effect on the ghosts as they move.
-We use lerping on the rotation of the Gargoyles.
+-------------------------------
 We use dot product to play a heart beat sound when a ghost is close and in front of the character.
+
+We use lerping on the rotation of the Gargoyles.
+
+We use the particle effect on the ghosts as they move.
+
+-------------------------------
 
 Mindy Tran: Getting Started and Player movement
 
