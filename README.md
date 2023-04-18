@@ -12,7 +12,7 @@ We use the particle effect on the ghosts as they move.
 
 -------------------------------
 
-Mindy Tran: Getting Started and Player movement
+Mindy Tran: Getting started, Player setup, and project management
 
 Elizabeth Bowden: Environment, Camera, Audio, and dot product
 
