@@ -9,12 +9,12 @@ the names of your team members and the contributions from each team member.
 
 We use the particle effect on the ghosts as they move.
 We use lerping on the rotation of the Gargoyles.
-We use dot product to play a heart beat sound when the character gets close to a ghost.
+We use dot product to play a heart beat sound when a ghost is close and in front of the character.
 
 Mindy Tran: Getting Started and Player movement
 
-Elizabeth Bowden: Environment, Camera, Audio
+Elizabeth Bowden: Environment, Camera, Audio, and dot product
 
-Lauren Van Horn: Ending the Game, Static Enemies
+Lauren Van Horn: Ending the Game, Static Enemies, and linear interpolation
 
-Alexa Roskowski: Static Enemies, Dynamic Observers
+Alexa Roskowski: Static Enemies, Dynamic Observers, and particle effect
