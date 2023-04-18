@@ -1,7 +1,5 @@
 # John Lemon Haunted Jaunt Game
-CS 410 Game Programming: Group project to build the "John Lemon Haunted Jaunt Game" from Unity with additional elements. We added at least one gameplay element that uses a dot product in some way, one gameplay element that uses linear interpolation in some way, and at least one particle effect.
-
-Game based on Unity's John Lemon's Haunted Jaunt: 3D Beginner https://learn.unity.com/project/john-lemon-s-haunted-jaunt-3d-beginner
+CS 410 Game Programming: Group project to build the "John Lemon Haunted Jaunt Game" from Unity with additional elements. Game based on Unity's John Lemon's Haunted Jaunt: 3D Beginner https://learn.unity.com/project/john-lemon-s-haunted-jaunt-3d-beginner. Going beyond the tutorial, we added one gameplay element that uses a dot product in some way, one gameplay element that uses linear interpolation in some way, and one particle effect. 
 
 -------------------------------
 We use dot product to play a heart beat sound when a ghost is close and in front of the character.
